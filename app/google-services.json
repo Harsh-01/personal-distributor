@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "274569371940",
+    "project_id": "personal-distributor-85015",
+    "storage_bucket": "personal-distributor-85015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274569371940:android:97b3a4bc044c2f672953b1",
+        "android_client_info": {
+          "package_name": "com.personaldistributor.yourpersonaldistributor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274569371940-i8sq37l5bjfsopmmon4hhdob713705ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvN1L6aAXLt8QSaaEjtl-_z12NMZYhlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274569371940-i8sq37l5bjfsopmmon4hhdob713705ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

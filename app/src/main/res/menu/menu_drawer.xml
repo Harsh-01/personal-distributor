@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chat1"
+            android:title="Chats"
+            android:icon="@drawable/ic_message_foreground"/>
+        <item
+            android:id="@+id/viewPost"
+            android:title="View All Posts"
+            android:icon="@drawable/ic_viewapost_foreground"/>
+        <item
+            android:id="@+id/inquiry1"
+            android:title="Enquiry"
+            android:icon="@drawable/ic_launcher_next_foreground"/>
+        <item
+            android:id="@+id/payment"
+            android:title="Payment"
+            android:icon="@drawable/ic_payment_black_24dp"/>
+        <item
+            android:id="@+id/replacement"
+            android:title="Replacement"
+            android:icon="@drawable/ic_return_black_24dp"/>
+        <item
+            android:id="@+id/rating"
+            android:title="My Reviews"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout_foreground"/>
+
+
+    </group>
+</menu>

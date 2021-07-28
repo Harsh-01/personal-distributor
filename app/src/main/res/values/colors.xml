@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4E4376</color>
+    <color name="colorPrimaryDark">#77000000</color>
+    <color name="colorAccent">#639CFF</color>
+    <color name="colorPrimary1">#498EFF</color>
+    <color name="colorPrimaryDark1">#65DCE5</color>
+    <color name="colorAccent1">#0D5D98</color>
+    <color name="colorAddress">#2F7092</color>
+    <color name="colorHeadngs">#3797CF</color>
+    <color name="colorSolidCircle">#FFFFFF</color>
+    <color name="colorCircleBorder">#30FFFF</color>
+    <color name="colorGradEnd">#67EFC8</color>
+    <color name="colorGradStart">#639CFF</color>
+    <color name="colorGrey">#E5E5E5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="newcolorPrimaryDark">#ffffff</color>
+    <color name="newcolorAccent">#127EE6</color>
+
+<!--  CP  #795548-->
+<!--    CA - D81B60-->
+<!--  CPD  #6d4c41-->
+<!--    CPD New - #77000000-->
+<!--    #49BEFF-->
+<!--    <color name="colorPrimary">#4E4376</color>-->
+
+</resources>

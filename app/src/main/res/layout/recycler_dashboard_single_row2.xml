@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="#ffffff"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:weightSum="8">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:id="@+id/pImage"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="150dp"
+            android:weightSum="5">
+            <TextView
+                android:id="@+id/margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:text="Margin : "
+                android:fontFamily="@font/futuralightfont" />
+            <TextView
+                android:id="@+id/margin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#237C26"
+                android:layout_toRightOf="@id/margin"
+                android:textSize="23sp"
+                android:text=" ₹100"
+                android:fontFamily="@font/futuralightfont" />
+            <ImageView
+                android:id="@+id/tick"
+                android:layout_width="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/msp"
+                android:visibility="gone"
+                android:src="@drawable/ic_launcher_next_foreground" />
+            <TextView
+                android:id="@+id/demo"
+                android:layout_below="@+id/margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demo : "
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:fontFamily="@font/futuralightfont"/>
+            <TextView
+                android:id="@+id/demo1"
+                android:layout_below="@+id/margin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/demo"
+                android:text=" 5 Units"
+                android:textColor="#237C26"
+                android:textSize="23sp"
+                android:fontFamily="@font/futuralightfont"/>
+            <TextView
+                android:id="@+id/msp"
+                android:layout_below="@id/demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSP :"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:fontFamily="@font/futuralightfont"/>
+            <TextView
+                android:id="@+id/msp1"
+                android:layout_below="@id/demo1"
+                android:layout_toRightOf="@id/msp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ₹500"
+                android:textColor="#237C26"
+                android:textSize="23sp"
+                android:fontFamily="@font/futuralightfont"/>
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_weight="5"
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_weight="1.5"
+            android:layout_below="@+id/productImage"
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="3dp"
+            android:textColor="#1631DB"
+            android:textSize="17sp"
+            android:layout_gravity="start"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_below="@+id/productName"
+            android:layout_weight="1.5"
+            android:id="@+id/productCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="Company Name"
+            android:fontFamily="@font/robotoblackitalic"
+            android:layout_gravity="start"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

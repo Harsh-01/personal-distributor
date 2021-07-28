@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Personal Distributor</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="shop_size">
+        <item>Shop Size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="shop_influence">
+        <item>Shop Influence</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="register_options">
+        <item>Create account as...</item>
+        <item>Agent</item>
+        <item>Executive</item>
+        <item>Shop Owner</item>
+    </string-array>
+    <string-array name="buisness_type">
+        <item>Business Segment</item>
+        <item>Automobile store</item>
+        <item>Beauty and clothing</item>
+        <item>Eatery with space</item>
+        <item>Electronics</item>
+        <item>Floral/plant</item>
+        <item>Furniture store</item>
+        <item>General store</item>
+        <item>Home appliances</item>
+        <item>Home decor</item>
+        <item>Ladies clothing</item>
+        <item>Medical store</item>
+        <item>On the wheels eatery</item>
+        <item>Services</item>
+        <item>Stationary</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="TimeEnquiry">
+        <item>Time</item>
+        <item>Per Day</item>
+        <item>Per Week</item>
+        <item>Per Months</item>
+    </string-array>
+    <string-array name="genderField">
+        <item>Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="payMode">
+        <item>Payment Mode</item>
+        <item>UPI/Online</item>
+        <item>Cash To Agent</item>
+        <item>Razorpay</item>
+    </string-array>
+
+    <string-array name="shop_type">
+        <item>Shop Type</item>
+        <item>Concrete shop</item>
+        <item>On the wheel shop</item>
+    </string-array>
+
+    <string name="headline">UPLOAD FROM ORIGINAL !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_display_maps">Map</string>
+
+    <string name="cashReg">YOUR REGISTRATION FOR SHOP UNDER AGENT CODE "XXXXX" IS WAITING FOR APPROVAL. PLEASE WAIT FOR FINAL APPROVAL MESSAGE! THANKS!</string>
+    <string name="cashReg2">"Congratulations! your payment of Rs. 100 has been approved" +
+                    " You are now a registered product evaluator. Your shop vendor ID under agent code '' is on the way. " +
+                    "Thank you for joining us"</string>
+
+    <string-array name="defaultMode">
+
+        <item>Default</item>
+
+        <item>Shop pay</item>
+
+        <item>Product pay</item>
+
+        <item>Deposit pay</item>
+
+    </string-array>
+    <string-array name="returnMode">
+
+        <item>Return</item>
+
+        <item>Return By Product</item>
+
+        <item>Return By Companies</item>
+
+        <item>Total Loss</item>
+
+    </string-array>
+
+
+    <string name="preference_boolean">Is Agent</string>
+    <string name="preference_post_text">Post Text</string>
+    <string name="preference_code">Email Code</string>
+    <string name="preference_code1">Email Code From Login</string>
+    <string name="preference_code_name">Agent Name</string>
+    <string name="preference_code_address">Agent Address</string>
+    <string name="preference_code_name1">Vendor Name</string>
+    <string name="preference_code_address1">Vendor Address</string>
+    <string name="preference_code_text">Vendor Address</string>
+    <string name="shopkeeper_code">Shop keeper code</string>
+    <string name="add_to_favourites">Add to favourites</string>
+
+    <string name="preferences_1">Maggie Preferences</string>
+
+    <string name="preferences_2">Coffee Preferences</string>
+
+    <string name="preferences_3">Rin Preferences</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+    <string name="name"><u>Name :</u></string>
+    <string name="name1"><u>Agent Code :</u></string>
+    <string name="name2"><u>Email :</u></string>
+    <string name="name3"><u>Phone</u></string>
+    <string name="name4"><u>Shops Registered :</u></string>
+    <string name="viewProfile"><u>View Profile </u></string>
+    <string name="term"><u>Terms &amp; Conditions :</u></string>
+    <string name="yourProfile"><u>Your Profile</u></string>
+
+
+    <string name="preferences_4">Dove Preferences</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

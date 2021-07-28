@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_bar"
+        android:title="Search Products"
+        android:icon="@drawable/ic_search1"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="Sort Products"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_sort_recent"
+                android:title="Recently added"/>
+            <item
+                android:id="@+id/action_sort_margin"
+                android:title="Most margin"/>
+            <item
+                android:id="@+id/action_sort_ascending_cost"
+                android:title="Low cost"/>
+            <item
+                android:id="@+id/action_sort_descending_demo"
+                android:title="Most demo"/>
+
+        </menu>
+
+    </item>
+   <!-- <item
+    android:id="@+id/chat"
+    android:title="Chats"
+    android:icon="@drawable/ic_message_foreground"
+    app:showAsAction="ifRoom" />-->
+
+</menu>
